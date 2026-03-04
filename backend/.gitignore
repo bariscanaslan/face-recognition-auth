@@ -1,5 +1,3 @@
 /.venv/
 
-/face_test/*.jpeg
-/face_test/*.jpg
-/face_test/*.png
+face_test/*.{jpeg,jpg,png}
