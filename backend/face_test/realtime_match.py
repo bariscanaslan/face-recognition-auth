@@ -13,7 +13,7 @@ app.prepare(ctx_id=0)
 # Load Reference
 # -----------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-image_path = os.path.join(BASE_DIR, "me.jpeg")
+image_path = os.path.join(BASE_DIR, "me2.jpg")
 
 reference_image = cv2.imread(image_path)
 reference_image = cv2.cvtColor(reference_image, cv2.COLOR_BGR2RGB)

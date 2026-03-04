@@ -21,7 +21,7 @@ print("Available providers:", ort.get_available_providers())
 # Load Reference Image
 # -----------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-image_path = os.path.join(BASE_DIR, "yigit.jpeg")
+image_path = os.path.join(BASE_DIR, "me.jpeg")
 
 ref_img = cv2.imread(image_path)
 ref_rgb = cv2.cvtColor(ref_img, cv2.COLOR_BGR2RGB)
